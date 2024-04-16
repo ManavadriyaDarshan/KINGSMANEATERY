@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bac">
+
+    <Button
+        android:id="@+id/top"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="170dp"
+        android:text="Top Selling Items"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/ts1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/cate"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="280dp"
+        android:text="Categories"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/cat"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/loc"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="390dp"
+        android:text="Location"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/location"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="500dp"
+        android:text="click here to order"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/call"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="95dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/logo1" />
+
+
+</RelativeLayout>
